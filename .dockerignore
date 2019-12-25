@@ -2,6 +2,3 @@ algernon
 Dockerfile
 *.yml
 *.sh
-**/*.swp
-**/*.json
-**/*.mp4
