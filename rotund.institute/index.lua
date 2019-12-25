@@ -4,7 +4,7 @@ local key = data:getstring("key")
 local urldata = urldata()
 
 if urldata.key == key and urldata.series and urldata.episode then
-  local file = "files/" .. urldata.series .. "/" .. urldata.episode .. ".mp4"
+  local file = "files/" .. urldata.series .. "/" .. urldata.episode .. ".mkv"
   content("video/mp4")
   serve(file)
 else
